@@ -18,4 +18,5 @@ build master
 build worker
 build submit
 build maven-template template/maven
+build sbt-template template/sbt
 
