@@ -68,5 +68,6 @@ if [ ! -z "$REQUEST_SLOTS" ] ;then
         echo ERROR: REQUEST_SLOTS not a number or FLINK_MASTER not specified >&2
         exit 1
     fi
+fi
 
 exec $@
